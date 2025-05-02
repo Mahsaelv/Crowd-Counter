@@ -9,17 +9,18 @@ This repository provides a simple script to detect and count people in an image 
 
 ## Installation
 ```
-1. git clone https://github.com/Mahsaelv/Crowd-Counter.git
+git clone https://github.com/Mahsaelv/Crowd-Counter.git
 ```
+
 ```
-2. cd CrowdCounter
+cd Crowd-Counter
 ```
 ```bash
-3. pip install -r requirements.txt
+pip install -r requirements.txt
 ```
-##Usage
+#Usage
 
-```pycon
+```
 python detect_people.py <IMAGE_PATH> [--conf CONF] [--iou IOU]
 ```
 
@@ -29,7 +30,7 @@ python detect_people.py <IMAGE_PATH> [--conf CONF] [--iou IOU]
 
 - --iou: IoU threshold for NMS (default: 0.45).
 
-###Example:
+##Example:
 ```
 python detect_people.py sample.jpg --conf 0.25 --iou 0.5
 ```
