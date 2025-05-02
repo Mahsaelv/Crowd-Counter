@@ -18,7 +18,7 @@ cd Crowd-Counter
 ```bash
 pip install -r requirements.txt
 ```
-#Usage
+### Usage
 
 ```
 python detect_people.py <IMAGE_PATH> [--conf CONF] [--iou IOU]
@@ -30,7 +30,7 @@ python detect_people.py <IMAGE_PATH> [--conf CONF] [--iou IOU]
 
 - --iou: IoU threshold for NMS (default: 0.45).
 
-##Example:
+### Example:
 ```
 python detect_people.py sample.jpg --conf 0.25 --iou 0.5
 ```
